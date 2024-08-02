@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+   
+}
+.card{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.card-text{
+    color: #ec4f22;
+}
+.cars-services-top h1{
+    font-size: 45px;
+  font-weight: 800;
+  color: #ec4f22;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.card-title{
+    text-align: center !important;
+    font-weight: 600 !important;
+    padding-top: 10px;
+    
+}
+.card-body{
+    padding: 10px;
+}
